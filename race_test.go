@@ -6,6 +6,8 @@ import (
 	"testing"
 )
 
+// use go test ./... --race to run tests
+
 /*
 * race condition using mutex
 * cons : with multiple states, very complicated and slower
